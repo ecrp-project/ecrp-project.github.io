@@ -1,0 +1,25 @@
+:root {
+  /* ECRP Official Institutional Color Palette */
+  --ifm-color-primary: #1E3557;
+  --ifm-color-primary-dark: #182C49;
+  --ifm-color-primary-darker: #15263F;
+  --ifm-color-primary-darkest: #0F1C2F;
+  --ifm-color-primary-light: #3F5873;
+  --ifm-color-primary-lighter: #556F8A;
+  --ifm-color-primary-lightest: #7A92AB;
+
+  --ifm-background-color: #F6F7F4;
+  --ifm-font-color-base: #2B2B2B;
+
+  --ifm-color-emphasis-300: #E2C37A; /* institutional gold */
+  --ifm-color-emphasis-600: #3F5873;
+
+  --ifm-link-color: #3F5873;
+  --ifm-link-hover-color: #1E3557;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #E2C37A;
+  --ifm-background-color: #1E3557;
+  --ifm-font-color-base: #F6F7F4;
+}
